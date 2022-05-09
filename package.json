@@ -1,0 +1,25 @@
+{
+  "name": "entregas-coder2",
+  "version": "1.0.0",
+  "description": "entregas con sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buil-css": "rode-sass --include-path scss scss/main.scss css/maincss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RICARDOQUINTANA22/entregas-coder2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RICARDOQUINTANA22/entregas-coder2/issues"
+  },
+  "homepage": "https://github.com/RICARDOQUINTANA22/entregas-coder2#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
