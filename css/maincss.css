@@ -1,0 +1,29 @@
+nav img {
+  max-width: 60px; }
+
+.section2-home img {
+  height: 100%;
+  padding: 2px;
+  object-fit: cover; }
+
+.section1-home {
+  position: relative; }
+
+h1 {
+  font-family: palette; }
+
+span {
+  color: #55ff00; }
+
+.p-main {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  position: relative;
+  text-align: center;
+  transform: translateY(50%);
+  border: 20px; }
+
+@media screen and (min-width: 600px) {
+  .main-home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
