@@ -7,30 +7,43 @@ nav img {
     padding: 2px;
     object-fit: cover;
 }
-
 .section1-home {
-    position: relative;
-    
-}
-h1 {
-    font-family: palette;
+    border: solid ;
+    padding: 5px;
+    margin: 5px;
 }
 
-span {
-    color: #55ff00;
+.section4-home {
+    border: solid ;
+    padding: 5px;
+    margin: 5px;
 }
+
+.section1-home img {
+    max-width: 400px;
+    object-fit: cover;
+    
+} 
+.p {
+    align-items: center;
+    text-align: center;
+}
+
 .p-main {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     position: relative;
     text-align: center;
-    transform: translateY(50%);
     border: 20px;
+}
+.tit {
+    color: rgb(156, 131, 219);
 }
 
 @media screen and (min-width: 600px) {
     .main-home {
            display: grid;
           grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
        }
      }
