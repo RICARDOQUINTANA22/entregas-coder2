@@ -1,3 +1,29 @@
+.redes-twitter {
+  color: #0a8a5f;
+  margin: 30px;
+  width: 45px; }
+
+.redes-facebook {
+  color: #0a8a5f;
+  margin: 30px;
+  width: 45px; }
+
+.redes-instagram {
+  color: #0a8a5f;
+  margin: 30px;
+  width: 45px; }
+
+.redes-spotify {
+  color: #0a8a5f;
+  margin: 30px;
+  width: 45px; }
+
+@media screen and (min-width: 600px) {
+  .main-home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); } }
+
 nav img {
   max-width: 60px; }
 
@@ -33,9 +59,3 @@ nav img {
 
 .tit {
   color: #9c83db; }
-
-@media screen and (min-width: 600px) {
-  .main-home {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); } }

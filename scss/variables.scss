@@ -1,0 +1,11 @@
+$lista-redes: twitter, facebook, instagram, spotify;
+
+@each $redes in $lista-redes {
+    .redes-#{$redes} {
+        color: #0a8a5f;
+        margin: 30px;
+        width: 45px;
+        
+
+ }
+}
