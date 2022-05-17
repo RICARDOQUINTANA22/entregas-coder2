@@ -78,3 +78,10 @@ header {
 .main-store img {
   object-fit: cover;
   max-width: 500px; }
+
+.nave ul {
+  justify-content: center; }
+
+.main-about {
+  font-size: xx-large;
+  font-family: fantasy; }
