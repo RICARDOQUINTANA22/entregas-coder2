@@ -9,6 +9,7 @@ nav img {
     height: 100%;
     padding: 2px;
     object-fit: cover;
+    border: 20px;
 }
 .section1-home {
     border: solid ;
@@ -25,6 +26,7 @@ nav img {
 .section1-home img {
     max-width: 400px;
     object-fit: cover;
+    border: 20px;
     
 } 
 .p {
@@ -42,4 +44,14 @@ nav img {
 .tit {
     color: rgb(156, 131, 219);
 }
-
+footer {
+    background-color: black;
+    height: 60px;
+}
+header {
+    height: 60px;
+}
+.main-store img {
+    object-fit: cover;
+    max-width: 500px;
+}
