@@ -84,4 +84,9 @@ header {
 
 .main-about {
   font-size: xx-large;
-  font-family: fantasy; }
+  font-family: fantasy;
+  text-align: center; }
+
+.main-about h2 {
+  font-size: 65px;
+  color: #012828; }
