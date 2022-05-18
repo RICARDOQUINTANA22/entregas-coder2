@@ -1,22 +1,30 @@
 .redes-twitter {
   color: #0a8a5f;
   margin: 30px;
-  width: 45px; }
+  width: 200px;
+  height: 200px;
+  text-decoration: none; }
 
 .redes-facebook {
   color: #0a8a5f;
   margin: 30px;
-  width: 45px; }
+  width: 200px;
+  height: 200px;
+  text-decoration: none; }
 
 .redes-instagram {
   color: #0a8a5f;
   margin: 30px;
-  width: 45px; }
+  width: 200px;
+  height: 200px;
+  text-decoration: none; }
 
 .redes-spotify {
   color: #0a8a5f;
   margin: 30px;
-  width: 45px; }
+  width: 200px;
+  height: 200px;
+  text-decoration: none; }
 
 .cont-store {
   position: relative;
@@ -147,7 +155,11 @@ nav img {
 
 footer {
   background-color: black;
-  height: 60px; }
+  height: 60px;
+  text-align: center; }
+
+.footer-redes {
+  align-items: center; }
 
 header {
   height: 60px; }

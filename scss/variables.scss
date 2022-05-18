@@ -4,7 +4,9 @@ $lista-redes: twitter, facebook, instagram, spotify;
     .redes-#{$redes} {
         color: #0a8a5f;
         margin: 30px;
-        width: 45px;
-        
+        width: 200px;
+        height: 200px;
+        text-decoration: none;
+
  }
 }
