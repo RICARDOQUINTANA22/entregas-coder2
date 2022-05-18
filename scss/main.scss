@@ -1,4 +1,8 @@
 @import "variables";
+@import "store";
+@import "about";
+@import "senses";
+@import "contact";
 @import "media";
 
 nav img {
@@ -12,13 +16,14 @@ nav img {
     border: 20px;
 }
 .section1-home {
-    border: solid ;
+    border: solid;
+    background-color: white;
     padding: 5px;
     margin: 5px;
 }
 
 .section4-home {
-    border: solid ;
+    border: solid;
     padding: 5px;
     margin: 5px;
 }
