@@ -97,22 +97,9 @@ aside {
   border: solid;
   background-color: aqua; }
 
-@media screen and (min-width: 600px) {
-  .main-home {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); } }
-
-@media screen and (min-width: 600px) {
-  .main-store {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr); } }
-
-@media screen and (min-width: 600px) {
-  .main-senses {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); } }
+aside {
+  padding: 0px;
+  position: relative; }
 
 nav img {
   max-width: 60px; }
@@ -124,10 +111,18 @@ nav img {
   border: 20px; }
 
 .section1-home {
+  align-items: center;
+  text-align: center;
+  height: auto;
+  width: auto;
   border: solid;
   background-color: white;
   padding: 5px;
   margin: 5px; }
+
+.section2-home {
+  height: auto;
+  width: auto; }
 
 .section4-home {
   border: solid;
@@ -135,17 +130,21 @@ nav img {
   margin: 5px; }
 
 .section1-home img {
-  max-width: 400px;
+  max-width: 450px;
   object-fit: cover;
   border: 20px; }
 
-.p {
-  align-items: center;
-  text-align: center; }
+.h1 {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+h1 img {
+  max-width: 1500px; }
 
 .p-main {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 45px;
+  font-size: 25px;
   position: relative;
   text-align: center;
   border: 20px; }
@@ -179,3 +178,31 @@ header {
 .main-about h2 {
   font-size: 65px;
   color: #012828; }
+
+.main-button {
+  position: absolute; }
+
+@media screen and (min-width: 600px) {
+  .main-home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); } }
+
+@media screen and (min-width: 600px) {
+  .main-store {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); } }
+
+@media screen and (min-width: 600px) {
+  .main-senses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 480px) {
+  .section1-home img {
+    max-width: 300px; } }
+
+@media screen and (min-width: 480px) {
+  .p-main {
+    font-size: 45px; } }

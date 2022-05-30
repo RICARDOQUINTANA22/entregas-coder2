@@ -3,7 +3,11 @@
 @import "about";
 @import "senses";
 @import "contact";
-@import "media";
+
+aside {
+    padding: 0px;
+    position: relative;
+}
 
 nav img {
     max-width: 60px;
@@ -16,10 +20,18 @@ nav img {
     border: 20px;
 }
 .section1-home {
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;
     border: solid;
     background-color: white;
     padding: 5px;
     margin: 5px;
+}
+.section2-home {
+    height: auto;
+    width: auto;
 }
 
 .section4-home {
@@ -29,19 +41,23 @@ nav img {
 }
 
 .section1-home img {
-    max-width: 400px;
+    max-width: 450px;
     object-fit: cover;
     border: 20px;
     
 } 
-.p {
-    align-items: center;
-    text-align: center;
+.h1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+h1 img{
+    max-width: 1500px; ;
 }
 
 .p-main {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 45px;
+    font-size: 25px;
     position: relative;
     text-align: center;
     border: 20px;
@@ -76,3 +92,7 @@ header {
     font-size: 65px;
     color: rgb(1, 40, 40);
 }
+.main-button {
+    position: absolute;
+}
+@import "media";
